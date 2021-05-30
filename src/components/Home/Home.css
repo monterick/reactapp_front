@@ -1,0 +1,33 @@
+
+.nav-icons{
+    
+	position: absolute;
+	display: flex;
+	width: 200px;
+	margin-left: 100px;
+	padding: 80px;
+	flex-direction: row;
+
+}
+
+
+.nav-icons .icone{
+	position: relative;
+	background: linear-gradient(to top, rgb(126, 126, 126), rgb(226, 226, 226));
+	border-radius: 10px;
+	bottom: 0;
+	padding: 10px;
+	margin-right: 150px;
+	justify-content: center;
+	box-shadow: -5px 10px 5px 5px black;
+}
+
+.nav-icons .icone:hover{
+	cursor: pointer;
+	bottom: 12px;
+}
+
+.nav-icons .icone img{
+	width: 50px;
+	height: 50px;
+}
